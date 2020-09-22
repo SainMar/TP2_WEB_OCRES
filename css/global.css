@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -78,6 +78,12 @@ main header aside img {
     border-radius: 50%;
     box-shadow: 0 0 5px #cecece;
 }
+aside {
+    padding-left: 10em;
+}
+#top-album-station{
+    justify-content: space-between;
+}
 
 nav ul li:last-child {
     margin-bottom: 30px;
@@ -89,7 +95,9 @@ h1 {
     font-weight: normal;
     margin: 0 0 8px 0;
 }
-
+.name-photo{
+    justify-content: left;
+}
 .name p { 
     color: #a0aab1;
     font-size: 12px;
