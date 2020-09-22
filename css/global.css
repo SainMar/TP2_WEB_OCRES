@@ -17,6 +17,10 @@ a {
     color: black;
     text-decoration: none;
 }
+#top-page{
+    display: flex;
+    justify-content: space-around;
+}
 
 .wrapper {
     padding: 25px 0;
@@ -40,6 +44,15 @@ header .user a {
     font-size: 13px;
     color: #89949b;
     padding-top: 5px;
+}
+
+#general-content{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-right: 2em;
 }
 
 main h2 {
@@ -114,6 +127,10 @@ h1 {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .stats-links span, .stats-links a {
@@ -129,6 +146,7 @@ h1 {
     font-weight: normal;
     color: #4b5c66;
 }
+
 
 h2 {
     font-size: 20px;
